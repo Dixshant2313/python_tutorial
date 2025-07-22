@@ -1,0 +1,25 @@
+1. List is a data structure used to store group of elements and these elements can store different types of data (int, float, string)
+
+2. It is useful as it stores multiple variables in a single element.
+
+3. The stored data can be organised and multiple operations can be performed.
+
+Characteristics of list datatype:
+-> Ordered
+-> Mutable
+-> Dynamic
+-> Heterogeneous
+
+Ways of creating a list:
+1. using square brackets
+   my_list = [1,2,3,10.56,"hello",False]
+
+2. using list constructor
+   my_list = ((1,2,3,10.56,"hello",False))
+
+3. using range function
+   my_list = list(range(start, stop, step))
+
+4. using list comprehension
+   my_list = [expression for item in iterable if condition]
+   squares = [i ** 2 for in in range(1,11) if i%2 == 0]
