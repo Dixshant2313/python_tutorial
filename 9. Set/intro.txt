@@ -1,0 +1,8 @@
+These are similar to list and are used to store data in elements.
+
+Properties of sets:-
+1. Mutable
+2. Unordered
+3. Cannot have any duplicate values
+4. Heterogenous
+
