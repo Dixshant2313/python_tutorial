@@ -1,0 +1,8 @@
+Properties of tuple data structure:- 
+1- Immutable
+2- Ordered
+3- Heterogenous
+
+These are traversed in the same manner as list were traversed (looped)
+1. Directly over the elements :- for i in tuple_name
+2. Using the indexing :- for i range(len(tuple_name))
