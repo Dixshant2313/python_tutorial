@@ -1,0 +1,9 @@
+String - It is a sequence of characters to use and store and represent a text.
+
+numbers, symbols, A-Z (even whitespace is also a string)
+enclosed by double, single quotes and can also be triple quotes (multi line strings)
+
+#Characteristics
+1 -> Immutable
+2 -> Indexed (starts from 0)
+3 -> Iterable
