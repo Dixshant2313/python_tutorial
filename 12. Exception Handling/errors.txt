@@ -1,0 +1,10 @@
+# errors occur due to the mistakes in the code that prevent it from running
+
+1-> Syntax error :- print("Hello World"     # Missing closing paranthesis
+
+2-> Indentation error
+    def func():
+    print("Hello World")    # No Indentation
+
+3-> There is one more tab error when you mix tabs and spaces.
+4-> There errors cannot be handled but what can be handled are called Exceptions
