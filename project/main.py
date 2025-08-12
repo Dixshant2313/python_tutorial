@@ -68,7 +68,9 @@ def updatefile():
                     data = input("Enter the text to append in your file")
                     fs.write(" "+data)
             
-        print("FILE UPDATED SUCCESSFULLY")  
+            print("FILE UPDATED SUCCESSFULLY")  
+        else:
+            print("File not found!")
     except Exception as err:
         print(f"An error occured: {err}")  
         
@@ -106,9 +108,8 @@ try:
             updatefile()
         case 4:
             deletefile()        
-
 except ValueError:
-    print("❌ Invalid input. Please enter a numeric value.")
+    print("❌ Invalid input. Please enter a numeric value 1-4: ")
     
     
 # using match case for clean code
