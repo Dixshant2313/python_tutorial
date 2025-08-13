@@ -1,0 +1,67 @@
+**Project Name:** StreamBank - A Simple Banking System in Streamlit
+
+**Overview:**
+StreamBank is a lightweight banking application built using Python and Streamlit. It serves as a basic prototype of a banking system allowing users to create accounts, log in securely, and perform essential operations such as deposits, withdrawals, account updates, and closures. The backend operates on a simple local JSON file that acts as the database.
+
+**Key Features:**
+
+* Account creation with unique 8-digit account number
+* Secure login using account number and PIN
+* Deposit and withdraw functionality with balance check
+* Ability to update user details (name, email, PIN)
+* Account closure with confirmation
+* Streamlit-based web UI with a clean, minimal interface
+
+**Technology Stack:**
+
+* **Frontend:** Streamlit (Python-based UI framework)
+* **Backend:** Python with local JSON-based data storage
+
+**File Structure:**
+
+```
+your_project/
+├── streambank_app.py       # Main Streamlit frontend application
+├── bank_backend.py         # Backend logic handling all banking operations
+└── data.json               # Local JSON database (auto-created)
+```
+
+**How to Run the Project:**
+
+1. Make sure Python 3.8+ is installed.
+2. Install Streamlit if not already installed:
+
+   ```bash
+   pip install streamlit
+   ```
+3. Navigate to the project folder in terminal or command prompt.
+4. Run the app:
+
+   ```bash
+   streamlit run streambank_app.py
+   ```
+5. The app will open in your default browser at `http://localhost:8501`
+
+**Usage Flow:**
+
+1. Create an account with your name and a 4-digit PIN.
+2. Log in using the assigned account number and your PIN.
+3. Perform operations like deposit, withdraw, update details, or close account.
+
+**Note:** This is a simplified educational/demonstration tool. It does not implement persistent authentication, encryption, or concurrent access handling.
+
+**Author:** Dixshant Charan
+
+**License:** MIT License (Feel free to use or modify for learning and non-commercial purposes)
+
+**Future Enhancements (Suggestions):**
+
+* Replace local JSON with SQLite or Firebase
+* Add password encryption using bcrypt
+* Add session-based login with Streamlit session state
+* Add transaction history and filtering
+* Deploy using Streamlit Cloud or other hosting options
+
+---
+
+For questions or improvements, feel free to contact the author or contribute.
